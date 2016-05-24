@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="52dp">
+    <TextView
+        android:id="@+id/textview_school"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:textSize="16dp"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/textview_profession"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@id/textview_school"
+        android:textSize="14dp"
+        android:textColor="#999999"/>
+
+    <TextView
+        android:id="@+id/textview_from_to"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="30dp"
+        android:layout_alignParentRight="true"
+        android:textSize="16dp"
+        android:textColor="#999999"/>
+
+    <TextView
+        android:id="@+id/textview_education"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/textview_from_to"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="30dp"
+        android:textColor="#999999"
+        android:textSize="12sp"/>
+
+    <ImageView
+        android:layout_width="8dp"
+        android:layout_height="13dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/icon_listitem_next"/>
+</RelativeLayout>

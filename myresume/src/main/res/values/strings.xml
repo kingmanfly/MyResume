@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MyResume</string>
+
+    <string name="home_device_needlogin">请登录</string>
+    <string name="home_device_greeting_goodmoring">早上好</string>
+    <string name="home_device_greeting_goodmoring2">上午好</string>
+    <string name="home_device_greeting_goodeafternoon">中午好</string>
+    <string name="home_device_greeting_goodeafternoon2">下午好</string>
+    <string name="home_device_greeting_goodevening">晚上好</string>
+</resources>
